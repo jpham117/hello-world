@@ -1,0 +1,117 @@
+/**** MAIN PAGE ****/
+
+
+/**** Nav ***/
+
+.nav ul li {
+	display: inline-block;
+	}
+
+.nav ul {
+	float: right;
+}
+
+.nav {
+	background-color: #c2c2a3;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.nav {
+	z-index: 1;
+}
+
+.nav ul li a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF;
+	padding: 20px 10px 20px;
+}
+
+.nav a:hover {
+	color: #ff0;
+	text-decoration: none;
+	-webkit-transition: color 600ms;
+}
+
+/**** CONTACT PAGE ****/
+
+#bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	/*Perserve aspet ratio*/
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.mainbox {
+	position: relative;
+	overflow: hidden;
+	padding: 260px;
+	z-index: 2;
+}
+
+.mainbox img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.6;
+}
+
+/**** Typography for Contact Page****/
+
+.contact h1 {
+	font-family: Papyrus, Lucida Grande, Verdana, sans-serif;
+	font-size: 70px;
+	font-weight: 900;
+}
+
+.mainbox h2 {
+	font-family: Papyrus, Lucida Grande, Verdana, sans-serif;
+	font-size: 30px;
+}
+
+/**** FAQ Page ****/
+
+.panel-body {
+	font-family: Papyrus, Lucida Grande, Verdana, sans-serif;
+	font-size: 1.5em;
+	color:  #000000;
+}
+
+.panel-title {
+	font-family: Papyrus, Lucida Grande, Verdana, sans-serif;
+	font-size: 2em;
+	color:  #0099cc;
+}
+
+.panel-default .panel-heading {
+	background-color: #ffd780;
+}
+
+/**** Carousel ****/
+
+.carousel-caption h3 {
+	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+	font-size: 55px;
+	font-weight: 900;
+	color: #00b3b3;	
+}
+
+.carousel-caption p {
+	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	color: #527a7a;
+	margin-bottom: 150px;
+}
+
+
+
+
