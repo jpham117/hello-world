@@ -9,7 +9,7 @@
 }
 
 .nav {
-	background-color: black;
+	background-color: #c2c2a3;
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -19,6 +19,7 @@
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	color: #FFF;
+	font-weight: 200;
 	padding: 20px 10px 20px;
 }
 
@@ -27,6 +28,8 @@
 	text-decoration: none;
 	-webkit-transition: color 600ms;
 }
+
+
 
 .header {
 	padding-top: 40px;
