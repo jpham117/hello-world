@@ -1,5 +1,13 @@
 /**** MAIN PAGE ****/
 
+.body {
+	position: relative;
+}
+
+.anchor {
+	padding-top: 20px;
+}
+
 /**** Carousel ****/
 
 .carousel-caption h3 {
@@ -24,73 +32,158 @@
 
 /**** Nav ***/
 
-.nav ul li {
+.navbar ul li {
 	display: inline-block;
 	}
 
-.nav ul {
+.navbar ul {
 	float: right;
 }
 
-.nav {
+.navbar {
 	background-color: #c2c2a3;
 	position: fixed;
 	width: 100%;
 	top: 0;
-}
-
-.nav {
 	z-index: 1;
 }
 
-.nav ul li a {
+.navbar ul li a {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
-	color: #FFF;
+	color: #FFF; 
 	font-weight: 200;
-	padding: 20px 10px 20px;
+	}
+
+.navbar-header {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF; 
+	font-weight: 200;
 }
 
-.nav a:hover {
-	color: #ff0;
+.projectName a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF; 
+	font-weight: 200;
+	
+}
+
+.navbar a:hover {
+	color: #fff;
 	text-decoration: none;
-	-webkit-transition: color 600ms;
+}
+
+.dropdown-menu {
+	background-color: black;
+}
+
+/**** Typography for Nav ****/
+
+.navbar ul li a { 
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.projectName a {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.dropdown-menu a {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+/**** ABOUT PAGE ****/
+
+.header {
+	padding-top: 40px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header h1 {
+	text-align: center;
+}
+
+.image {
+	display: inline-block;
+	float: left;
+	padding: 0 20px;
+}
+
+.column {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 20px;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 60px;
+	padding: top right bottom left;
+}
+
+#skills-list {
+	margin-left: 50px;
 }
 
 
+/*Typography for About Page*/
+
+h1,
+h2,
+h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p, 
+li {
+	font-family: Georgia, Garamond, Palatino, serif;
+}
+
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: #fffeea; 
+	color: #34495e;
+}
+
+.skills {
+	background-color: #5AD4C2; 
+	color: #FFF;
+}
 
 /**** CONTACT PAGE ****/
 
-#bg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-
-	/*Perserve aspet ratio*/
-	min-width: 100%;
-	min-height: 100%;
+#contact {
+	background-image: url("../img/hustle.jpg");
+	background-attachment: fixed; 
+	background-size: cover; 
+	color: white; 
+	padding: 100px; 
+	padding-top: 50px; 
+	height: 400px;
 }
 
-.mainbox {
-	position: relative;
-	overflow: hidden;
-	padding: 260px;
-	z-index: 2;
-}
 
-.mainbox img {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: auto;
-	opacity: 0.6;
-}
 
 /**** Typography for Contact Page****/
 
-.contact h1 {
+.mainbox h1 {
 	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
 	font-size: 5em;
 	font-weight: 900;
@@ -125,7 +218,6 @@
 
 
 /**** Work Page ****/
-
 
 
 
