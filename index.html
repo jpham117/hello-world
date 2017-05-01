@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Hello World!</title>
+    <title>Project Name</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -23,19 +23,55 @@
   </head>
 
   <body>
-     <div class="nav">
-      <ul id="nav-links">
-        <li><a href="index.html"><strong>Home</strong></a></li>
-        <li><a href="about.html"><strong>About</strong></a></li>
-        <li><a href="work.html"><strong>Work</strong></a></li>
-        <li><a href="contact.html"><strong>Contact</strong></a></li>
-        <li><a href="faq.html"><strong>FAQ</strong></a></li>
-      </ul>
-    </div><!-- end nav -->
+    <body data-spy="scroll" data-target=".navbar">
+      <!-- navbar starts here -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="projectName navbar-brand">
+                <ul class="nav navbar-nav navbar-right">
+                <a href="index">Project Name</a>
+              </div> <!-- end projectName -->
+            </div> <!-- end navbar-header -->
 
-    <div class="container-fluid">
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#index"><strong>Home</strong></a></li>
+                <li><a href="#about"><strong>About</strong></a></li>
+                
+                  <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><strong>Work</strong><span class="caret"></span>
+                    </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#example1">Example 1</a></li>
+                    <li><a href="#example2">Example 2</a></li>
+                  </ul>
+                <li><a href="#contact"><strong>Contact</strong></a></li>
+                <li><a href="#faq"><strong>FAQ</strong></a></li>
+                
+              
+              </ul>
+            </div> <!-- end navbar collapse-->
+          </div> <!-- end navbar container -->
+        </nav> <!-- end navbar -->
+
+
+  <!-- ======== -->
+  <!--   HOME   -->
+  <!-- ======== -->
+
+    <div class="container-fluid anchor" id="index"></div>  
+
+    <div class="container-fluid" id="index">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
+        <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -103,6 +139,141 @@
         </div><!-- /row -->
     </div> <!-- /container -->
 
+  <!-- =========== -->
+  <!--    ABOUT    -->
+  <!-- =========== --> 
+
+  <div class="container anchor" id="about"></div>
+
+  <div class="container" id="about">
+      <div class="header">
+        <h1>Creativity is intelligence having fun - Albert Einstein</h1>
+      </div><!-- end header -->
+    
+      <div class="image">
+        <img src="img/beach1.jpg" alt="beach1">
+       </div><!-- end image --> 
+
+      <div class="intro column">
+        <h2>Introduction</h2>
+         <p>Orange County-based art enthusiast</p>
+      </div><!-- end intro -->
+
+      <div class="skills column">
+        <h3>My Skills</h3>
+          <ul id="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+      </div><!-- end skill -->
+
+      <div class="main-text">
+        <h3>My Story</h3>
+          <p>I’ve always had a passion for arts and technology and discovered that I could mold the two into a profession that was perfect for me, which is web development.  As I read more about it, the more I felt a deeper interest for this career path.  The design aspect of web development is much like storytelling and the ability to create that instant spark and charm the users in such a way to want to continue to explore more is such a captivating and powerful approach to draw in the audience.  Recently, I’ve found a new interest in photography and discovered another medium to express myself.  I enjoy exploring cities with my kids and capturing these moments through photography.  Traveling is blood in my veins and I am endlessly inspired by adventures, waking up to new horizons, and exploring the world.</p>
+
+      </div><!-- end main -->
+    </div><!-- end container -->
+
+  <!-- ========== -->
+  <!--    WORK    -->
+  <!-- ========== -->
+
+   <div class="container anchor" id="work"></div>
+   
+  <div class="container" id="work"></div>
+      <div class="row" id="work"></div>
+        <div class="col-sm-6 col-md-3"><img src="img/hello.png" class="img-responsive"></div>
+        <div class="col-sm-6 col-md-3"><img src="img/hello.png" class="img-responsive"></div>  
+        <div class="col-sm-6 col-md-3"><img src="img/hello.png" class="img-responsive"></div> 
+        <div class="col-sm-6 col-md-3"><img src="img/hello.png" class="img-responsive"></div>
+        <div class="col-sm-6 col-md-3"><img src="img/hello.png" class="img-responsive"></div> 
+        <div class="col-sm-6 col-md-3"><img src="img/hello.png" class="img-responsive"></div> 
+        <div class="col-sm-6 col-md-3"><img src="img/hello.png" class="img-responsive"></div> 
+        <div class="col-sm-6 col-md-3"><img src="img/hello.png" class="img-responsive"></div>       
+      </div>
+    </div>
+
+
+
+  <!-- ============= -->
+  <!--    CONTACT    -->
+  <!-- ============= -->
+
+ <div class="container anchor" id="contact"></div>
+
+  <div class="container" id="contact"></div>
+
+    <div class="mainbox">
+      <div class="contact">
+        <h1>Contact Me</h1>
+      </div><!-- end contact -->
+        
+      <div class="email">
+        <h2><span class="glyphicon glyphicon-send">&nbsp</span>Email: sandytoes@gmail.com</h2>
+      </div><!-- end email -->
+
+      <div class="address">
+        <h2><span class="glyphicon glyphicon-home">&nbsp</span>1234 Sand Crab Lane, Irvine, CA 12345</h2>
+      </div><!-- address -->
+
+      <div class="phone">
+        <h2><span class="glyphicon glyphicon-earphone">&nbsp</span>Mobile: 714-123-4567</h2>
+      </div><!-- end phone -->
+    </div><!-- end mainbox -->
+
+  <!-- ========= -->
+  <!--    FAQ    -->
+  <!-- ========= -->
+
+   <div class="container anchor" id="FAQ"></div>
+
+      <div class="container" id="faq">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Collapsible Group Item #1
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Collapsible Group Item #3
+              </a>
+            </h4>
+          </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div><!-- end container -->  
 
 
     <!-- ============================= -->
@@ -113,6 +284,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!-- Can place script tags with JavaScript files here -->
+
+    <script type="text/javascript">
+      var $root = $('html, body');
+        $('.navbar-nav a').click(function() {
+          var href = $.attr(this, 'href');
+        if(href != undefined) {
+          $root.animate({
+            scrollTop: $(href).offset().top
+        }, 500, function () {
+        window.location.hash = href;
+        });
+    }
+        return false;
+    });
+</script>
 
   </body>
 
