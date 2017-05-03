@@ -174,8 +174,8 @@ body {
 	background-attachment: fixed; 
 	background-size: cover; 
 	color: white; 
-	padding: 100px; 
-	padding-top: 50px; 
+	padding: 100px;
+	padding-top: 50px;
 	height: 400px;
 }
 
@@ -218,6 +218,10 @@ body {
 
 
 /**** Work Page ****/
+
+#work {
+	padding: 0px 15px 247px 15px; /* t r b l */
+}
 
 
 
