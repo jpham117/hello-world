@@ -99,10 +99,6 @@
 	padding-top: 40px;
 }
 
-.container {
-	width: 80%;
-	margin: 0 auto;
-}
 
 .header h1 {
 	text-align: center;
@@ -134,7 +130,7 @@
 
 /*Typography for About Page*/
 
-h1,
+h1
 h2,
 h3 {
 	font-family: Futura, Helvetica, Arial, sans-serif;
@@ -183,15 +179,19 @@ body {
 
 /**** Typography for Contact Page****/
 
-.mainbox h1 {
-	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
-	font-size: 5em;
-	font-weight: 900;
-}
+@media only screen and (max -max-width: 767px) {
 
-.mainbox h2 {
-	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
-	font-size: 2.5em;
+	.mainbox h1 {
+		font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+		font-size: 5em;
+		font-weight: 900;
+	}
+	
+	.mainbox h2 {
+		font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+		font-size: 2.5em;
+	}
+	
 }
 
 /**** FAQ Page ****/
