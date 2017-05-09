@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Project Name</title>
+    <title>Jenyfer Pham</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -208,14 +208,12 @@
   <!--    CONTACT    -->
   <!-- ============= -->
 
-  <div class="container anchor" id="contact"></div>
 
-  <div class="container" id="contact">
-    <div class="mainbox">
-      <div class="contact">
+    <div class="container" id="contact">      
+      <div class="contactme">
         <h1>Contact Me</h1>
-      </div><!-- end contact -->
-        
+      </div><!-- end contact me-->
+      
       <div class="email">
         <h2><span class="glyphicon glyphicon-send">&nbsp</span>Email: sandytoes@gmail.com</h2>
       </div><!-- end email -->
@@ -227,7 +225,30 @@
       <div class="phone">
         <h2><span class="glyphicon glyphicon-earphone">&nbsp</span>Mobile: 714-123-4567</h2>
       </div><!-- end phone -->
-    </div><!-- end mainbox -->
+  
+
+    <form class="col-xs-12 col-md-6 col-lg-8">
+      <label for="name">Name</label>
+      <div class="form-group">
+        <input class="name-submit form-control" id="name" name="name" type="text" placeholder="Name">
+      </div>
+      <label for="name">Email</label>
+      <div class="form-group">
+        <input class="email-submit form-control" id="email" name="email" type="email" placeholder="Email Address"></textarea>
+      </div>
+      <label for="tel">Phone Number</label>
+      <div class="form-group">
+        <input class="tel-submit form-control" id="tel" name="tel" type="tel" minlength="10" placeholder="Contact Number"></textarea>
+      </div>
+      <label for="message">Message</label>
+      <div class="form-group">
+        <textarea class="message-box" name="message" rows="4" id="message" placeholder="Message"></textarea>
+        <p id="charCount"></p>
+      </div>
+      <button class="btn btn-primary"  id="button" type="submit"></span> Submit</button>
+    </form>
+
+    
   </div><!-- end container -->
 
   <!-- ========= -->
