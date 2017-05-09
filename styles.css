@@ -228,6 +228,30 @@ body {
 	background-color: #a3c2c2;
 }
 
+/*Learn More Section*/
+
+.learn-more {
+	text-align: left;
+	float: left;
+}
+
+.modal-button {
+	float: right;
+	padding: 15px;
+}
+
+.row {
+	margin-left: 9px;
+}
+
+/*Resume Section*/
+
+#resume {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
 
 /**** Work Page ****/
 
