@@ -1,14 +1,69 @@
-/**** MAIN PAGE ****/
+/**** MAIN SECTION ****/
 
-.body {
-	position: relative;
+/* Nav */
+
+.navbar {
+	background-color: #c2c2a3;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
 }
 
-.anchor {
-	padding-top: 20px;
+.navbar ul {
+	float: right;
 }
 
-/**** Carousel ****/
+.navbar li {
+	display: inline-block;
+	}
+
+.navbar a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF; 
+	font-weight: 200;
+	}
+
+.navbar-header {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF; 
+	font-weight: 200;
+}
+
+.projectName a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF; 
+	font-weight: 200;	
+}
+
+.navbar a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.dropdown-menu {
+	background-color: black;
+}
+
+/* Typography for Nav */
+
+.navbar ul li a { 
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.projectName a {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.dropdown-menu a {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+
+/* Carousel */
 
 .carousel-caption h3 {
 	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
@@ -30,70 +85,8 @@
 }
 
 
-/**** Nav ***/
 
-.navbar ul li {
-	display: inline-block;
-	}
-
-.navbar ul {
-	float: right;
-}
-
-.navbar {
-	background-color: #c2c2a3;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	z-index: 1;
-}
-
-.navbar ul li a {
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: #FFF; 
-	font-weight: 200;
-	}
-
-.navbar-header {
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: #FFF; 
-	font-weight: 200;
-}
-
-.projectName a {
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: #FFF; 
-	font-weight: 200;
-	
-}
-
-.navbar a:hover {
-	color: #fff;
-	text-decoration: none;
-}
-
-.dropdown-menu {
-	background-color: black;
-}
-
-/**** Typography for Nav ****/
-
-.navbar ul li a { 
-	font-family: Futura, Helvetica, Arial, sans-serif;
-}
-
-.projectName a {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-}
-
-.dropdown-menu a {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-}
-
-/**** ABOUT PAGE ****/
+/**** ABOUT SECTION ****/
 
 .header {
 	padding-top: 40px;
@@ -131,7 +124,6 @@
 /*Typography for About Page*/
 
 
-
 h1
 h2,
 h3 {
@@ -165,7 +157,21 @@ body {
 	color: #FFF;
 }
 
-/**** CONTACT PAGE ****/
+
+
+/**** WORK SECTION ****/
+
+#work {
+	padding: 0px 15px 50px 15px; /* t r b l */
+}
+
+.embed-responsive {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 200px;
+}
+
+/**** CONTACT SECTION ****/
 
 #contact {
 	background-image: url("../img/hustle.jpg");
@@ -188,10 +194,7 @@ body {
 }
 
 
-
-
-
-/**** Typography for Contact Page****/
+/* Typography for Contact Page */
 
 @media only screen and (max -max-width: 767px) {
 
@@ -208,7 +211,7 @@ body {
 	
 }
 
-/**** FAQ Page ****/
+/**** FAQ SECTION ****/
 
 .container {  
 	padding-top: 40px;
@@ -246,8 +249,6 @@ body {
 	margin-left: 9px;
 }
 
-/*Resume Section*/
-
 #resume {
 	height: 500px;
 	width: 100%;
@@ -255,17 +256,7 @@ body {
 }
 
 
-/**** Work Page ****/
 
-#work {
-	padding: 0px 15px 50px 15px; /* t r b l */
-}
-
-.embed-responsive {
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-bottom: 200px;
-}
 
 
 
