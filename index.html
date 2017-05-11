@@ -129,17 +129,17 @@
         <div class="col-md-4">
           <h2>Portfolio Concept</h2>
             <p>I've taken a few introductory HTML and CSS courses through CodeAcademy to gain a basic foundation and prepare myself for the Web Development course.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" data-replacement="top" title="Tooltip on top">View Details &raquo;</button>
         </div><!-- /col -->
         <div class="col-md-4">
           <h2>Project Goals</h2>
             <p>My goal is to complete the assignments in a timely manner.  I understand that I will need to allocate between 15-25 per week, depending on the complexity of each assignment.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" data-replacement="top" title="Tooltip on top">View Details &raquo;</button>
         </div><!-- /col -->
         <div class="col-md-4">
           <h2>Course Goals</h2>
             <p>My professional learning goal is to gain the necessary skills and be proficient as I prepare to transition into a new career as a Web Developer.</p>
-           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <button type="button" class="btn btn-default" data-toggle="tooltip" data-replacement="top" title="Tooltip on top">View Details &raquo;</button>
         </div><!-- /col -->
         </div><!-- /row -->
     </div> <!-- /container -->
@@ -177,7 +177,7 @@
 
     <div class="main-text">
       <h3>My Story</h3>
-        <p>I’ve always had a passion for arts and technology and discovered that I could mold the two into a profession that was perfect for me, which is web development.  As I read more about it, the more I felt a deeper interest for this career path.  The design aspect of web development is much like storytelling and the ability to create that instant spark and charm the users in such a way to want to continue to explore more is such a captivating and powerful approach to draw in the audience.  Recently, I’ve found a new interest in photography and discovered another medium to express myself.  I enjoy exploring cities with my kids and capturing these moments through photography.  Traveling is blood in my veins and I am endlessly inspired by adventures, waking up to new horizons, and exploring the world.</p>
+        <p>I’ve always had a passion for arts and technology and discovered that I could mold the two into a profession that was perfect for me, which is <a href="https://en.wikipedia.org/wiki/Web_development" title="web development" id="webdev">web development</a>.  As I read more about it, the more I felt a deeper interest for this career path.  The design aspect of web development is much like storytelling and the ability to create that instant spark and charm the users in such a way to want to continue to explore more is such a captivating and powerful approach to draw in the audience.  Recently, I’ve found a new interest in photography and discovered another medium to express myself.  I enjoy exploring cities with my kids and capturing these moments through photography.  Traveling is blood in my veins and I am endlessly inspired by adventures, waking up to new horizons, and exploring the world.</p>
     </div><!-- end main -->
   </div><!-- end container -->
 
@@ -201,7 +201,7 @@
   </div><!-- end container -->
 
 
- 
+  <!-- Youtube video -->
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LIy_Y-4V2w0" allowfullscreen></iframe>
   </div>
@@ -211,7 +211,7 @@
   <!-- ============= -->
 
 
-    <div class="container" id="contact">      
+    <div class="container" id="contact" data-stellar-background-ratio="0.5">      
       <div class="contactme">
         <h1>Contact Me</h1>
       </div><!-- end contact me-->
@@ -348,14 +348,6 @@
 
   
 
- 
-
-
-
-
-
-
-
 
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
@@ -364,12 +356,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- Bootstrap core JS -->
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!--Tooltip for Home Section -->
+    <script>
+      $(function () {
+        $('#[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+
+    <!-- Tooltip for About section -->
+    <script>
+      $(function () {
+        $('#[webdev]').tooltip();
+      });
+    </script>
+
+  
 
     <!-- Can place script tags with JavaScript files here -->
 
-    <script src="js.jquery.stellar.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <script>$.stellar();</script>
+
 
     <script type="text/javascript">
       var $root = $('html, body');
