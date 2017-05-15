@@ -1,0 +1,265 @@
+/**** MAIN SECTION ****/
+
+/* Nav */
+
+.navbar {
+	background-color: #c2c2a3;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.navbar ul {
+	float: right;
+}
+
+.navbar li {
+	display: inline-block;
+	}
+
+.navbar a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF; 
+	font-weight: 200;
+	}
+
+.navbar-header {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF; 
+	font-weight: 200;
+}
+
+.projectName a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #FFF; 
+	font-weight: 200;	
+}
+
+.navbar a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.dropdown-menu {
+	background-color: black;
+}
+
+/* Typography for Nav */
+
+.navbar ul li a { 
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.projectName a {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.dropdown-menu a {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+
+/* Carousel */
+
+.carousel-caption h3 {
+	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+	font-size: 4em;
+	font-weight: 900;
+	color: #00b3b3;	
+}
+
+.carousel-caption p {
+	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+	font-size: 3em;
+	font-weight: 400;
+	color: #527a7a;
+}
+
+.carousel-caption h3 p {
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+/**** ABOUT SECTION ****/
+
+.header {
+	padding-top: 40px;
+}
+
+
+.header h1 {
+	text-align: center;
+}
+
+.image {
+	display: inline-block;
+	float: left;
+	padding: 0 20px;
+}
+
+.column {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	padding: 0 20px;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 60px;
+	padding: top right bottom left;
+}
+
+#skills-list {
+	margin-left: 50px;
+}
+
+
+/*Typography for About Page*/
+
+
+h1
+h2,
+h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p, 
+li {
+	font-family: Georgia, Garamond, Palatino, serif;
+}
+
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: #fffeea; 
+	color: #34495e;
+}
+
+.skills {
+	background-color: #5AD4C2; 
+	color: #FFF;
+}
+
+
+
+/**** WORK SECTION ****/
+
+#work {
+	padding: 0px 15px 50px 15px; /* t r b l */
+}
+
+.embed-responsive {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 200px;
+}
+
+/**** CONTACT SECTION ****/
+
+#contact {
+	background-image: url("../img/hustle.jpg");
+	background-attachment: fixed; 
+	background-size: cover; 
+	color: white; 
+	padding: 100px;
+	padding-top: 50px;
+	height: 700px;
+}
+
+.form-group {
+	width: 90%;
+}
+
+.message-box {
+  border-radius: 6px;
+  resize: none;
+  width: 100%;
+}
+
+
+/* Typography for Contact Page */
+
+@media only screen and (max -max-width: 767px) {
+
+	.mainbox h1 {
+		font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+		font-size: 5em;
+		font-weight: 900;
+	}
+
+	.mainbox h2 {
+		font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+		font-size: 2.5em;
+	}
+	
+}
+
+/**** FAQ SECTION ****/
+
+.container {  
+	padding-top: 40px;
+}
+
+.panel-body {
+	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+	font-size: 1.5em;
+	color:  #000000;
+}
+
+.panel-title {
+	font-family: Century Gothic, Avant Garde, Candara, sans-serif;
+	font-size: 2em;
+	color:  black;
+}
+
+.panel-default .panel-heading {
+	background-color: #a3c2c2;
+}
+
+/*Learn More Section*/
+
+.learn-more {
+	text-align: left;
+	float: left;
+}
+
+.modal-button {
+	float: right;
+	padding: 15px;
+}
+
+.row {
+	margin-left: 9px;
+}
+
+#resume {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
