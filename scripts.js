@@ -50,7 +50,6 @@ $(".message-box").css("border","2px solid red");
   	$('.message-box').hide();
   	return false;
   });
-
-	
+});
 
 
