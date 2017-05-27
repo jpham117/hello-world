@@ -52,4 +52,20 @@ $(".message-box").css("border","2px solid red");
   });
 });
 
+ 	// Textarea keyup event listener 
+
+ 	$('.message-box').on('keyup', function() {
+ 		console.log('keyup happened');  //here we make sure we're catching the keyup
+ 		var charCount = $('.message-box').val().length;  //here we set the length of the content of the textarea to a variable
+ 			console.log(charCount);  //here we make sure we set it to the right value
+ 			$('#charCount').html(charCount);  //here we show a running character count to the user
+
+ 		if(charCount > 50) {   
+ 			$("#charCount").css("color", "red");  //need to turn character to red 
+ 		} else {
+ 			$("#charCount").css("color", "black");  //need it to be black
+ 		};
+
+ 	});
+
 
