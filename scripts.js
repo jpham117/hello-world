@@ -15,6 +15,7 @@
 // Rule below let's me know that scripts.js file has been linked correctly and will alert me when DOM is ready 
 $(document).ready(function(){
 
+
 //Red border around the message box 
 $(".message-box").css("border","2px solid red");
 	
@@ -50,6 +51,23 @@ $(".message-box").css("border","2px solid red");
   	$('.message-box').hide();
   	return false;
   });
+
+  //work section
+  for(var i = 0; i < works.length; ++i) {
+    $("#work").append("\
+      <div class='col-sm-6 col-md-3'>\
+        <img class='img-responsive' src='" + works[i] +"'>\
+      </div>\
+      ");  
+  };
+
+  var images = $("#work img");
+  if(i%2 === 0){
+    $(images[i]).css("border", "2px solid DodgerBlue");
+  } else {
+    $(images[i]).css("border", "2px solid salmon");
+  };
+
 });
 
  	// Textarea keyup event listener 
