@@ -53,6 +53,7 @@ $(".message-box").css("border","2px solid red");
   });
 
   //work section
+
   for(var i = 0; i < works.length; ++i) {
     $("#work").append("\
       <div class='col-sm-6 col-md-3'>\
@@ -94,5 +95,15 @@ $(".message-box").css("border","2px solid red");
  		};
 
  	});
+
+  // script to add Google Map using JavaScript API
+
+  var map; 
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 52.509273, lng: 13.423316},
+      zoom: 8
+    });
+  }
 
 
