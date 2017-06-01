@@ -71,14 +71,14 @@ $(".message-box").css("border","2px solid red");
     $(".info", this).hide();
   });
 
-  var images = $("#work img");
+  var images = $("work img");
   if(i%2 === 0){
     $(images[i]).css("border", "2px solid DodgerBlue");
   } else {
     $(images[i]).css("border", "2px solid salmon");
   };
 
-});
+
 
  	// Textarea keyup event listener 
 
@@ -95,6 +95,7 @@ $(".message-box").css("border","2px solid red");
  		};
 
  	});
+});
 
   // script to add Google Map using JavaScript API
 
