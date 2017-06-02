@@ -59,17 +59,19 @@ $(".message-box").css("border","2px solid red");
       <div class='col-sm-6 col-md-3'>\
         <a href='img/wip.png' class='work-img'>\
           <img class='img-responsive' src='" + works[i].pic +"'>\
-          <span class='info'><p class='proj-title'>Title:</p> Project One </span>\
+          <span class='info'><p class='proj-title'>Title:</p>'" + works[i].title +"'</span>\
         </a>\
       </div>\
       ");  
   };
+
 
   $(".work-img").mouseenter( function() {
     $(".info", this).show();
   }).mouseleave( function() {
     $(".info", this).hide();
   });
+
 
   var images = $("work img");
   if(i%2 === 0){
