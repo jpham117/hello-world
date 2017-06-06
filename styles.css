@@ -197,6 +197,13 @@ body {
 
 /**** CONTACT SECTION ****/
 
+#contact-info {
+	display: inline-block;
+}
+
+.container form {
+	padding-left: 80px;
+}
 
 #contact {
 	background-image: url("../img/hustle.jpg");
@@ -216,23 +223,22 @@ body {
   width: 100%;
 }
 
-#map {
-	height: 30px;
-	width: 10%;
-}
-
 
 /* Typography for Contact Page */
 
+
+
 @media only screen and (max -max-width: 767px) {
 
-	.mainbox h1 {   
+	#contact h1 {   /* need to fix this */
 		font-family: Century Gothic, Avant Garde, Candara, sans-serif;
 		font-size: 5em;
 		font-weight: 900;
+		font color: red;
+
 	}
 
-	.mainbox h2 {
+	.mainbox h2 {  /* need to fix this */
 		font-family: Century Gothic, Avant Garde, Candara, sans-serif;
 		font-size: 2.5em;
 	}
