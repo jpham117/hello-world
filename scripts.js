@@ -57,7 +57,7 @@ $(".message-box").css("border","2px solid red");
   for(var i = 0; i < works.length; ++i) {
     $("#work").append("\
       <div class='col-sm-6 col-md-3'>\
-        <a href='img/wip.png' class='work-img'>\
+        <a href='"+ works[i].url +"' class='work-img'>\
           <img class='img-responsive' src='" + works[i].pic +"'>\
           <span class='info'><p class='proj-title'>Title:</p>'" + works[i].title +"'</span>\
         </a>\
