@@ -1,23 +1,23 @@
 //work examples
 var works = [
 	{
-		title: "First Project",
-		pic: "img/wip.png",
-		url:  "img/wip.png"
+		title: "Bike Berlin",
+		pic: "img/bikeberlinlogo.jpg",
+		url:  "https://bikeberlin08122017.herokuapp.com"
 	},
 	{
-		title: "Second Project",
-		pic: "img/wip.png",
-		url:  "img/wip.png"
+		title: "Paddle Board Bliss",
+		pic: "img/paddleboard.jpg",
+		url:  "http://blisspaddleyoga.com/"
 	},
 	{
-		title: "Third Project",
-		pic: "img/wip.png",
-		url:  "img/wip.png"
+		title: "Burning Man Festival",
+		pic: "img/burningman.jpg",
+		url:  "https://burningman.org/"
 	},
 	{
-		title: "Fourth Project",
-		pic: "img/wip.png",
-		url:  "img/wip.png"
+		title: "iWink Studios",
+		pic: "img/camera.jpg",
+		url:  "http://www.iwinkstudios.com/"
 	}
 ];
