@@ -98,16 +98,10 @@
 }
 
 .image {
-	display: inline-block;
-	float: left;
-	padding: 0 20px;
-}
-
-.column {
-	display: inline-block;
-	float: left;
-	width: 30%;
-	padding: 0 20px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0
 }
 
 .main-text {
@@ -161,8 +155,10 @@ body {
 
 /**** WORK SECTION ****/
 
+
+
 #work {
-	padding: 0px 15px 50px 15px; /* t r b l */
+	padding: 50px 15px 50px 15px; /* t r b l */
 }
 
 .embed-responsive {
@@ -195,25 +191,22 @@ body {
 	font-weight: 100;
 }
 
+/* Typography for Contact Page */
+
+#works {
+	font-color: black;
+}
+
 /**** CONTACT SECTION ****/
 
-#contact-info {
-	display: inline-block;
-}
-
-.container form {
-	padding-left: 80px;
-}
 
 #contact {
 	background-image: url("../img/hustle.jpg");
 	background-attachment: fixed; 
 	background-size: cover;
 	color: white; 
-	padding: 200px;
 	padding-top: 50px;
-	height: 700px;
-	width: 100%;
+
 }
 
 
@@ -226,17 +219,8 @@ body {
 
 /* Typography for Contact Page */
 
-
-
 @media only screen and (max -max-width: 767px) {
 
-	#contact h1 {   /* need to fix this */
-		font-family: Century Gothic, Avant Garde, Candara, sans-serif;
-		font-size: 5em;
-		font-weight: 900;
-		font color: red;
-
-	}
 
 	.mainbox h2 {  /* need to fix this */
 		font-family: Century Gothic, Avant Garde, Candara, sans-serif;
