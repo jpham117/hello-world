@@ -27,18 +27,18 @@
     <!-- navbar starts here -->
     <!-- Collect the nav links, forms, and other content for toggling -->
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
+        <div class="container-fluid" id= "navbar">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-            </button>
+            </button>  
               <div class="projectName navbar-brand">
                 <ul class="nav navbar-nav navbar-right">
                 <a href="#index">Project Name</a>
-              </div> <!-- end projectName -->
+              </div> <!-- end projectName --> 
           </div> <!-- end navbar-header -->
 
         <div class="navbar-collapse collapse">
@@ -139,31 +139,33 @@
   
   <div class="container" id="about">
     <div class="header">
-      <h1>"The things you are passionate about are not random.  They are your calling"<br>- Fabienne Fredrickson</h1>
-      <br>
+      <h1>About Me</h1>
       <br>
       <br>
     </div><!-- end header -->
     
-    <div class="image">
+    <div class="image col-md-4">
       <img src="img/beach1.jpg" alt="beach1">
     </div><!-- end image --> 
 
 
-    <div class="intro column">
+    <div class="intro col-md-4">
       <h2>Introduction</h2>
         <p>Orange County-based art enthusiast</p>
     </div><!-- end intro -->
 
-    <div class="skills column">
+    <div class="skills col-md-4">
       <h3>My Skills</h3>
         <ul id="skills-list">
           <li>HTML</li>
-          <li>CSS</li>
+          <li>CSS</li>         
+          <li>JavaScript</li>
+          <li>JQuery</li>
+          <li>Ruby on Rails</li>
         </ul>
     </div><!-- end skill -->
 
-    <div class="main-text">
+    <div class="main-text col-md-12">
       <h3>My Story</h3>
         <p>I’ve always had a passion for arts and technology and discovered that I could mold the two into a profession that was perfect for me, which is <a href="https://en.wikipedia.org/wiki/Web_development" title="web development" id="webdev">web development</a>.  As I read more about it, the more I felt a deeper interest for this career path.  The design aspect of web development is much like storytelling and the ability to create that instant spark and charm the users in such a way to want to continue to explore more is such a captivating and powerful approach to draw in the audience.  Recently, I’ve found a new interest in photography and discovered another medium to express myself.  I enjoy exploring cities with my kids and capturing these moments through photography.  Traveling is blood in my veins and I am endlessly inspired by adventures, waking up to new horizons, and exploring the world.</p>
     </div><!-- end main -->
@@ -177,6 +179,7 @@
 
  
   <div class="container" id="work"> 
+    <h1>My Work</h1>
     <div class="row" id="wip">  
     <div class='col-sm-6 col-md-3'>   
     </div><!-- end row -->
@@ -194,61 +197,53 @@
   <!--    CONTACT    -->
   <!-- ============= -->
 
-    <div class="container" id="contact">
-      <div class="contactme">
-        <h1>Contact Me</h1>
-      </div><!-- end contact me-->
-
-      <div class="col-xs-12 col-md-6 col-lg-4" id="contact-info">
-        <div class="email">
-          <h2><span class="glyphicon glyphicon-send">&nbsp</span>Email: sandytoes@gmail.com</h2>
-        </div><!-- end email -->
-
-        <div class="address">
-          <h2><span class="glyphicon glyphicon-home">&nbsp</span>1234 Sand Crab Lane, Irvine, CA 12345</h2>
-        </div><!-- address -->
-
-        <div class="phone">
-          <h2><span class="glyphicon glyphicon-earphone">&nbsp</span>Mobile: 714-123-4567</h2>
-        </div><!-- end phone -->
-
-        <div class="map">
-          <iframe width="400" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=K%C3%B6penicker%20Str.%20126%2C%2010179%20Berlin%2C%20Germany&key=AIzaSyA4jlQVUo2Mv5FAAassALT6p2YlQ1lWZvI" allowfullscreen></iframe>
-        </div> <!-- end map -->
-      </div> <!-- end contact-info -->
-   
-
-    <form class="col-xs-10 col-md-6 col-lg-8">
-      <label for="name">Name</label>
+  <div id="contact" class="contact-section">
+    <div class="container-fluid">
+      <h1>Get in Touch</h1><br>
+    <div class="col-sm-9 col-md-6">
+      <h2>Contact Me</h2>
+        <p><span class="glyphicon glyphicon-phone "></span> Mobile: 714-123-4567
+        </p>
+        <p><span class="glyphicon glyphicon-envelope"></span> Email: jenpham@gmail.com <br></p>
+        <br>
+      <div class= "map-container">
+        <iframe width="400" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=K%C3%B6penicker%20Str.%20126%2C%2010179%20Berlin%2C%20Germany&key=AIzaSyA4jlQVUo2Mv5FAAassALT6p2YlQ1lWZvI" allowfullscreen></iframe>
+      </div><!--end mymap div -->
+    </div>
+  <div div class="col-sm-3 col-md-6">
+    <div class="contact-form-info">
+    <h1>Say hello</h1><br>
+      <form id="contact-form" method="" action="" role="form">
+       <div class="form-group">
+          <label for="inputFirstName">First Name</label>
+          <input type="fname" class="form-control" id="fname" title="enter first name" placeholder="Enter your First Name">
+      </div> 
       <div class="form-group">
-        <input class="name-submit form-control" id="name" name="name" type="text" placeholder="Name">
+          <label for="inputLastName">Last Name</label>
+          <input type="lname" class="form-control" id="lname" title="enter last name" placeholder="Enter your Last name">
       </div>
-
-      <label for="tel">Phone Number</label>
       <div class="form-group">
-        <input class="tel-submit form-control" id="tel" name="tel" type="tel" minlength="10" placeholder="Contact Number"></textarea>
+          <label for="inputEmail">*Email</label>
+          <input type="email" class="form-control" id="email" required = "required" placeholder="Enter your Email">
       </div>
-
-      <label for="name">Email</label>
       <div class="form-group">
-        <input class="email-submit form-control" id="email" name="email" type="email" placeholder="Email Address"></textarea>
+          <label for="inputPhone">Phone</label>
+          <input type="phone" class="form-control" id="phone" placeholder="Enter your Phone Number">
       </div>
-
-      <label for="message">Message</label>
       <div class="form-group">
-        <textarea class="message-box" name="message" rows="4" id="message" placeholder="Message"></textarea>
+          <label for="inputMsg">*Message</label>
+          <textarea class="message-box" name="message" rows="4" id="message" placeholder="Message"></textarea>
         <p id="charCount"></p>
       </div>
-
-      <button class="btn btn-primary" id="button" type="submit"></span> Submit</button>
-    </form>
- </div> <!-- end contact container -->
-
+        <button type="submit" id="contact-button" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+</div><br>
 
     
-
-
-
   <!-- ========= -->
   <!--    FAQ    -->
   <!-- ========= -->  
@@ -274,7 +269,7 @@
             </div> <!-- end modal-header -->
 
             <div class="modal-body">
-              <embed id="resume" src="img/dummyresume.pdf">
+              <embed id="resume" src="img/resumecf.pdf">
             </div> <!-- end modal-body -->
 
           </div> <!-- end model content-->
